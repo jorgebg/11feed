@@ -9,6 +9,7 @@ module.exports = async function(eleventyConfig) {
 	const pagefind = await import(
 		"pagefind"
 	);
+	const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
 
 	const md = new markdownIt({
 		html: true,
@@ -16,6 +17,7 @@ module.exports = async function(eleventyConfig) {
 
 	eleventyConfig.addWatchTarget("./src/assets/style.css");
 	eleventyConfig.addPassthroughCopy("./src/assets/");
+	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(svgContents);
 
 	eleventyConfig.addFilter("markdownify", (content) => {
