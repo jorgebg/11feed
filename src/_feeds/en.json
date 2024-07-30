@@ -1,0 +1,23 @@
+{
+  "category": "English",
+  "items": [
+    "http://www.annualreviews.org/action/showFeed?ui=45mu4&mi=3fndc3&ai=67b7&jc=economics&type=etoc&feed=rss",
+    "http://www.annualreviews.org/action/showFeed?jc=polisci&type=etoc&feed=rss",
+    "http://www.annualreviews.org/action/showFeed?ui=45mu4&mi=3fndc3&ai=t0&jc=soc&type=etoc&feed=rss",
+    "http://www.annualreviews.org/action/showFeed?ui=45mu4&mi=3fndc3&ai=sp&jc=physiol&type=etoc&feed=rss",
+    "http://www.annualreviews.org/action/showFeed?ui=45mu4&mi=3fndc3&ai=rz&jc=nutr&type=etoc&feed=rss",
+    "http://feeds.nature.com/nature/rss/current?format=xml",
+    "http://www.thelancet.com/rssfeed/lancet_current.xml",
+    "http://feeds.bmj.com/bmj/research?format=xml",
+    "https://jamanetwork.com/rss/site_3/67.xml",
+    "https://ieeexplore.ieee.org/rss/TOC9424.XML",
+    "https://ieeexplore.ieee.org/rss/TOC41.XML",
+    "https://ieeexplore.ieee.org/rss/TOC10206.XML",
+    "https://ieeexplore.ieee.org/rss/TOC83.XML",
+    "https://www.eurekalert.org/rss.xml",
+    "http://feeds.feedburner.com/Pnas-RssFeedOfEarlyEditionArticles?format=xml",
+    "http://export.arxiv.org/rss/cs.CR",
+    "https://journals.humankinetics.com/journalissuetocrss/journals/ijspp/ijspp-overview.xml",
+    "https://www.cambridge.org/core/rss/product/id/3DB89DF6A9878CE661D3CE5FC6E9D6BC"
+  ]
+}
