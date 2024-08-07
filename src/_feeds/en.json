@@ -18,6 +18,7 @@
     "http://feeds.feedburner.com/Pnas-RssFeedOfEarlyEditionArticles?format=xml",
     "http://export.arxiv.org/rss/cs.CR",
     "https://journals.humankinetics.com/journalissuetocrss/journals/ijspp/ijspp-overview.xml",
-    "https://www.cambridge.org/core/rss/product/id/3DB89DF6A9878CE661D3CE5FC6E9D6BC"
+    "https://www.cambridge.org/core/rss/product/id/3DB89DF6A9878CE661D3CE5FC6E9D6BC",
+    "https://mappingignorance.org/feed/"
   ]
 }
