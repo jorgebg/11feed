@@ -13,6 +13,8 @@ const { XMLParser } = require("fast-xml-parser");
 const CategoryStore = require("./category-store.js");
 const slugify = require('slugify');
 
+const ID_MAX_LENGTH = 255;
+
 const turndownService = new TurndownService();
 turndownService.use(turndownPluginGfm.gfm);
 
@@ -167,7 +169,7 @@ const parseFeed = async (url) => {
 			return date > dateLimit;
 		}).map((item) => {
 			return {
-				id: slugify(item.link),
+				id: slugify(item.link).substring(0, ID_MAX_LENGTH),
 				title: safeString((item.title || item.description || item.summary || item['content:encoded'] || item.content || item.link).replace(/(<([^>]+)>)/gi, "")).substring(0, 50),
 				date: new Date(item.pubDate),
 				content: safeContent(item['content:encoded'] || item.content || item.description),
